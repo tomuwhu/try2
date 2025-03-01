@@ -7,5 +7,5 @@
 <h1>Hi, {data.user.username}!</h1>
 <p>Your user ID is {data.user.id}.</p>
 <form method='post' action='?/logout' use:enhance>
-	<button>Sign out</button>
+	<button class="ui red button">Sign out</button>
 </form>
