@@ -6,5 +6,5 @@ export const GET = ({ request }) => {
 export const POST = async ({ request }) => {
     var data = await request.json();
     console.log(data)
-    return new Response(JSON.stringify({x: 4, y: 5}))
+    return new Response(JSON.stringify({x: data.x + 1, y: 5}))
 }
