@@ -2,7 +2,7 @@
     const { data } = $props()
 </script>
 <h1>Cica</h1>
-{data.user.age}
+{data.user?.age}
 <form method="POST">
     <div class="ui input">
         <input type="text" name="cica">
